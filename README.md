@@ -115,14 +115,13 @@ These are **nominal totals**, not accumulated load-cell measurements. The fill-c
 | Path | Contents |
 |---|---|
 | `Nut_Filling_Station.ACD` | Native Studio 5000 PLC project |
+| `Nut_Filling_Station.mer` | HMI |
 | `FactoryTalk_View_Mockup.png` | Original HMI design reference |
 | `Conveyor_With_Sensors.png` | Conveyor and sensor graphic |
 | `Hopper_No_Text.png`, `Peanut_Hopper.png` | Hopper graphics |
 | `Images/` | Additional project graphics |
 | `docs/images/` | Screenshots of the completed HMI |
-| `*_Prompt.txt` | Existing image-generation prompt notes |
 
-**HMI application backup:** A FactoryTalk View `.apa` backup or `.mer` runtime is not currently included in this folder. The screenshots and graphic assets do not contain the HMI tag connections or display configuration. Add an application backup before publishing if others should be able to restore and edit the HMI.
 
 ## Run the simulation
 
@@ -164,11 +163,4 @@ During development, the PLC project reported **0 errors and 0 warnings**, and th
 - A completed walnut box at step 60 with both products totaling 1 box / 5.0 kg each.
 
 This is an educational simulation. Physical weighing, conveyor motion feedback, and production-machine safety functions are outside its scope.
-
-## Preparing the GitHub repository
-
-- Include the PLC `.ACD`, README, graphics, and screenshots.
-- Export a FactoryTalk View ME application backup (`.apa`) and add it for HMI restoration. A `.mer` can additionally provide a runtime deliverable.
-- Optionally export the PLC project to `.L5X` for easier text review and version comparison.
-- Keep generated editor lock files and automatic `.BAK` copies out of version control; the included `.gitignore` covers these local files.
 
