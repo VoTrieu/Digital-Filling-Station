@@ -1,0 +1,11 @@
+# Studio 5000 editor working files and automatic backups
+*.Sem
+*.sem
+*.Wrk
+*.wrk
+*.BAK*.acd
+*.BAK*.ACD
+
+# Windows folder metadata
+Thumbs.db
+Desktop.ini
